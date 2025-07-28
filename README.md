@@ -1,88 +1,118 @@
 <p align="center">
     <img src="banner.png" alt="ADIVINHA" width="600">
 </p>
-# 🎯 ADIVINHA!
+🎯 ADIVINHA!
 
-✨ *Um mini jogo de adivinhação em Python feito por* **IC4R0** ✨
+✨ Um mini jogo de adivinhação em Python feito por IC4R0 ✨
 
----
-
-## 🕹️ Sobre o Jogo
-
-**ADIVINHA!** é um jogo simples e divertido onde o objetivo é adivinhar um número entre **1 e 10**. A cada tentativa, o jogo te diz se o palpite deve ser **maior** ou **menor**. Continue tentando até acertar!
-
-Ah, e tem um toque especial com **ASCII Art** para deixar tudo mais estiloso! 😎
 
 ---
 
-## 🚀 Funcionalidades
+🕹️ Sobre o Jogo
 
-- 🔢 Gera um número aleatório entre 1 e 10
-- 💬 Dicas interativas sobre o palpite
-- 🥳 Mensagem de vitória estilizada
-- 🎨 Banner divertido em ASCII art com `pyfiglet`
+ADIVINHA! é um jogo simples e divertido onde o objetivo é adivinhar um número entre 1 e 10. A cada tentativa, o jogo te diz se o palpite deve ser maior ou menor. Continue tentando até acertar!
 
----
+Ah, e tem um toque especial com ASCII Art para deixar tudo mais estiloso! 😎
 
-## 🛠️ Tecnologias Usadas
-
-- 🐍 Python 3
-- 🔤 pyfiglet (para o banner)
 
 ---
 
-## 📦 Requisitos
+🚀 Funcionalidades
 
-- Python 3 instalado
-- Biblioteca `pyfiglet`:
+🔢 Gera um número aleatório entre 1 e 10
 
-```bash
-pip install pyfiglet
-```
+💬 Dicas interativas sobre o palpite
+
+🥳 Mensagem de vitória estilizada
+
+🎨 Banner divertido em ASCII art com pyfiglet
+
+
 
 ---
 
-## ▶️ Como Jogar
+🛠️ Tecnologias Usadas
+
+🐍 Python 3
+
+🔤 pyfiglet (para o banner)
+
+📦 Poetry (gerenciador de dependências)
+
+
+
+---
+
+📦 Requisitos
+
+Python 3 instalado
+
+Poetry instalado: https://python-poetry.org/docs/#installation
+
+
+
+---
+
+▶️ Como Jogar
 
 1. Clone o repositório:
 
-```bash
+
+
 git clone https://github.com/IC4R0/ADIVINHA.git
 cd ADIVINHA
-```
 
-2. Instale a dependência:
+2. Instale as dependências com o Poetry:
 
-```bash
-pip install pyfiglet
-```
 
-3. Rode o jogo:
 
-```bash
+poetry install
+
+3. Ative o ambiente virtual:
+
+
+
+poetry shell
+
+4. Rode o jogo:
+
+
+
 python JOGO_ADIVINHA.py
-```
 
-4. Divirta-se adivinhando! 🎉
+5. Divirta-se adivinhando! 🎉
+
+
+
 
 ---
 
-## 📁 Estrutura do Projeto
+📁 Estrutura do Projeto
 
-```
 📂 ADIVINHA/
 ├── 🎨 ASCII_Art.py      # Banner em arte ASCII
 ├── 🎮 JOGO_ADIVINHA.py  # Lógica principal do jogo
-└── 📄 README.md         # Este arquivo lindo aqui 😄
-```
+├── 📄 README.md         # Este arquivo lindo aqui 😄
+└── 📦 pyproject.toml     # Gerenciamento com Poetry
+
 
 ---
 
-## 📝 Licença
+🤝 Contribua!
 
-Este projeto está sob a licença MIT. Confira o arquivo `LICENSE` para mais detalhes.
+Tem uma ideia legal ou quer melhorar o jogo? Manda uma pull request ou abre uma issue. Vamos deixar esse joguinho cada vez mais divertido! 💡
+
 
 ---
 
-> Feito com por **IC4R0**
+📝 Licença
+
+Este projeto está sob a licença MIT. Confira o arquivo LICENSE para mais detalhes.
+
+
+---
+
+> Feito com por IC4R0
+
+
 
